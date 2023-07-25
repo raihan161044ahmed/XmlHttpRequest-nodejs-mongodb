@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#searchResults {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#searchResults th,
+#searchResults td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+#searchResults th {
+    background-color: #f2f2f2;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 480px) {
+    #searchInput {
+        font-size: 14px;
+    }
+
+    #searchResults th,
+    #searchResults td {
+        padding: 8px;
+    }
+}
